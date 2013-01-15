@@ -21,27 +21,27 @@ Download from the Github repository [here](https://github.com/CasualX/SourceProt
 
 Extract protect.cfg to
 
-*C:/Program Files/Steam/Steamapps/**USERNAME**/Team Fortress 2/tf/cfg*
+    C:/Program Files/Steam/Steamapps/USERNAME/Team Fortress 2/tf/cfg
 
 or a similar folder in your configuration.
 
 Ensure you have a file with the name autoexec.cfg in this directory.  If you have no such file, create an empty file in Notepad and ensure you save it with the .cfg extension.  Add a new line to your autoexec.cfg file with the text
 
-*exec protect.cfg*
+    exec protect.cfg
 
 Next, you must create an empty file in your
 
-*C:/Program Files/Steam/Steamapps/**USERNAME**/Team Fortress 2/tf*
+    C:/Program Files/Steam/Steamapps/USERNAME/Team Fortress 2/tf
 
 or similar directory named textwindow_temp.html.  Ensure this file is read-only by right clicking, selecting Properties, ticking the "Read-Only" box, and clicking OK or Apply.
 
 Open your hosts file in Notepad.  You can easily navigate to the directory containing the hosts file by pressing Windows+R and pasting
 
-*%SystemRoot%/system32/drivers/etc/*
+    %SystemRoot%/system32/drivers/etc/
 
 Navigate to Notepad in your Start menu and run it as an Administrator by selecting that option from the right-click menu.  Drag the hosts file from the directory we just opened into Notepad.  Add the following line to the end
 
-*127.0.0.1 motd.pinion.gg*
+    127.0.0.1 motd.pinion.gg
 
 Save the file when you are done.
 
